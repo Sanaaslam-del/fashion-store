@@ -34,7 +34,8 @@ function Cart({ cart, setCart }) {
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="w-20 h-20 object-contain bg-[#f3eee8] rounded"
+                  className="w-20 h-20 rounded object-contain bg-cover bg-center mix-blend-multiply"
+                  style={{ backgroundImage: "url('/Herobackground.png')" }}
                 />
 
                 <div>

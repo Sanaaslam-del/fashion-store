@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 
 function Home({ setCart }) {
- const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("");
   return (
     <div>
 
@@ -174,7 +174,7 @@ function Home({ setCart }) {
           {/* Product 1 */}
           <div className="bg-white rounded-md border border-gray-200 overflow-hidden">
 
-            <div className="relative bg-[#f3eee8] h-55 flex items-center justify-center">
+            <div className="relative h-55 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/Herobackground.png')" }}>
 
               <img
                 src="girl.png"
@@ -217,23 +217,23 @@ function Home({ setCart }) {
                 </span>
               </div>
 
- <button
-  onClick={() =>
-    setCart((prevCart) => [
-      ...prevCart,
-      {
-        name: "Classic Trench Coat",
-        price: 89,
-        image: "/girl.png",
-      },
-    ])
-  }
-  className="w-full bg-black text-white text-[11px] py-2.5 rounded mt-3 hover:bg-gray-800"
->
-  Add to Cart
+              <button
+                onClick={() =>
+                  setCart((prevCart) => [
+                    ...prevCart,
+                    {
+                      name: "Classic Trench Coat",
+                      price: 89,
+                      image: "/girl.png",
+                    },
+                  ])
+                }
+                className="w-full bg-black text-white text-[11px] py-2.5 rounded mt-3 hover:bg-gray-800"
+              >
+                Add to Cart
 
 
-</button> 
+              </button>
 
 
             </div>
@@ -244,7 +244,7 @@ function Home({ setCart }) {
           {/* Product 2 */}
           <div className="bg-white rounded-md border border-gray-200 overflow-hidden">
 
-            <div className="relative bg-[#f3eee8] h-55 flex items-center justify-center">
+            <div className="relative h-55 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/Herobackground.png')" }}>
 
               <img
                 src="mens.png"
@@ -287,21 +287,21 @@ function Home({ setCart }) {
                 </span>
               </div>
 
-<button
-  onClick={() => {
-    setCart((prevCart) => [
-      ...prevCart,
-      {
-        name: "Varsity Jacket",
-        price: 69,
-        image: "/mens.png",
-      },
-    ]);
-  }}
-  className="w-full bg-black text-white text-[11px] py-2.5 rounded mt-3 hover:bg-gray-800"
->
-  Add to Cart
-</button>
+              <button
+                onClick={() => {
+                  setCart((prevCart) => [
+                    ...prevCart,
+                    {
+                      name: "Varsity Jacket",
+                      price: 69,
+                      image: "/mens.png",
+                    },
+                  ]);
+                }}
+                className="w-full bg-black text-white text-[11px] py-2.5 rounded mt-3 hover:bg-gray-800"
+              >
+                Add to Cart
+              </button>
 
             </div>
 
@@ -311,7 +311,7 @@ function Home({ setCart }) {
           {/* Product 3 */}
           <div className="bg-white rounded-md border border-gray-200 overflow-hidden">
 
-            <div className="relative bg-[#f3eee8] h-55 flex items-center justify-center">
+            <div className="relative h-55 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/Herobackground.png')" }}>
 
               <img
                 src="floral.png"
@@ -354,21 +354,21 @@ function Home({ setCart }) {
                 </span>
               </div>
 
-<button
-  onClick={() => {
-    setCart((prevCart) => [
-      ...prevCart,
-      {
-        name: "Floral Midi Dress",
-        price: 59,
-        image: "/floral.png",
-      },
-    ]);
-  }}
-  className="w-full bg-black text-white text-[11px] py-2.5 rounded mt-3 hover:bg-gray-800"
->
-  Add to Cart
-</button>
+              <button
+                onClick={() => {
+                  setCart((prevCart) => [
+                    ...prevCart,
+                    {
+                      name: "Floral Midi Dress",
+                      price: 59,
+                      image: "/floral.png",
+                    },
+                  ]);
+                }}
+                className="w-full bg-black text-white text-[11px] py-2.5 rounded mt-3 hover:bg-gray-800"
+              >
+                Add to Cart
+              </button>
 
             </div>
 
@@ -378,7 +378,7 @@ function Home({ setCart }) {
           {/* Product 4 */}
           <div className="bg-white rounded-md border border-gray-200 overflow-hidden">
 
-            <div className="relative bg-[#f3eee8] h-55 flex items-center justify-center">
+            <div className="relative h-55 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/Herobackground.png')" }}>
 
               <img
                 src="white.png"
@@ -421,21 +421,21 @@ function Home({ setCart }) {
                 </span>
               </div>
 
-<button
-  onClick={() => {
-    setCart((prevCart) => [
-      ...prevCart,
-      {
-        name: "White Sneakers",
-        price: 49,
-        image: "/white.png",
-      },
-    ]);
-  }}
-  className="w-full bg-black text-white text-[11px] py-2.5 rounded mt-3 hover:bg-gray-800"
->
-  Add to Cart
-</button>
+              <button
+                onClick={() => {
+                  setCart((prevCart) => [
+                    ...prevCart,
+                    {
+                      name: "White Sneakers",
+                      price: 49,
+                      image: "/white.png",
+                    },
+                  ]);
+                }}
+                className="w-full bg-black text-white text-[11px] py-2.5 rounded mt-3 hover:bg-gray-800"
+              >
+                Add to Cart
+              </button>
 
             </div>
 
@@ -445,7 +445,7 @@ function Home({ setCart }) {
           {/* Product 5 */}
           <div className="bg-white rounded-md border border-gray-200 overflow-hidden">
 
-            <div className="relative bg-[#f3eee8] h-55 flex items-center justify-center">
+            <div className="relative h-55 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/Herobackground.png')" }}>
 
               <img
                 src="bags.png"
@@ -488,21 +488,21 @@ function Home({ setCart }) {
                 </span>
               </div>
 
-<button
-  onClick={() => {
-    setCart((prevCart) => [
-      ...prevCart,
-      {
-        name: "Leather Handbag",
-        price: 79,
-        image: "/bags.png",
-      },
-    ]);
-  }}
-  className="w-full bg-black text-white text-[11px] py-2.5 rounded mt-3 hover:bg-gray-800"
->
-  Add to Cart
-</button>
+              <button
+                onClick={() => {
+                  setCart((prevCart) => [
+                    ...prevCart,
+                    {
+                      name: "Leather Handbag",
+                      price: 79,
+                      image: "/bags.png",
+                    },
+                  ]);
+                }}
+                className="w-full bg-black text-white text-[11px] py-2.5 rounded mt-3 hover:bg-gray-800"
+              >
+                Add to Cart
+              </button>
 
             </div>
 
@@ -586,60 +586,60 @@ function Home({ setCart }) {
 
       </section>
 
-{/*  NEWSLETTER  */}
-<section className="w-full bg-[#faf9f7] px-[6%] py-5">
-  <div className="w-full bg-[#f5eee8] rounded-md px-8 py-5">
-    <div className="flex items-center justify-between gap-8">
+      {/*  NEWSLETTER  */}
+      <section className="w-full bg-[#faf9f7] px-[6%] py-5">
+        <div className="w-full bg-[#f5eee8] rounded-md px-8 py-5">
+          <div className="flex items-center justify-between gap-8">
 
-      <div>
-        <p className="text-[10px] uppercase tracking-[2px] text-gray-500">
-          Stay IN THE LOOP
-        </p>
+            <div>
+              <p className="text-[10px] uppercase tracking-[2px] text-gray-500">
+                Stay IN THE LOOP
+              </p>
 
-        <h2 className="text-xl font-semibold text-gray-900 mt-1">
-          Subscribe to our newsletter
-        </h2>
+              <h2 className="text-xl font-semibold text-gray-900 mt-1">
+                Subscribe to our newsletter
+              </h2>
 
-        {/* Missing line added */}
-        <p className="text-[10px] text-gray-600 mt-1">
-          Get the latest updates, new arrivals and exclusive offers.
-        </p>
-      </div>
+              {/* Missing line added */}
+              <p className="text-[10px] text-gray-600 mt-1">
+                Get the latest updates, new arrivals and exclusive offers.
+              </p>
+            </div>
 
-      <div>
-        <div className="flex items-center">
-          <input
-            type="email"
-            placeholder="Enter your email address"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="w-[280px] h-9 px-3 text-[10px] bg-white border border-gray-200 outline-none rounded-l"
-          />
+            <div>
+              <div className="flex items-center">
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="w-[280px] h-9 px-3 text-[10px] bg-white border border-gray-200 outline-none rounded-l"
+                />
 
-          <button
-            onClick={() => {
-              localStorage.setItem("subscriberEmail", email);
-              alert(localStorage.getItem("subscriberEmail"));
-            }}
-            className="h-9 bg-black text-white px-5 text-[10px] rounded-r hover:bg-gray-800"
-          >
-            Subscribe
-          </button>
+                <button
+                  onClick={() => {
+                    localStorage.setItem("subscriberEmail", email);
+                    alert(localStorage.getItem("subscriberEmail"));
+                  }}
+                  className="h-9 bg-black text-white px-5 text-[10px] rounded-r hover:bg-gray-800"
+                >
+                  Subscribe
+                </button>
+              </div>
+
+              {/* Social icons */}
+              <div className="flex items-center gap-4 mt-3 text-gray-800 text-[11px]">
+                <span className="cursor-pointer hover:text-gray-500">f</span>
+                <span className="cursor-pointer hover:text-gray-500">◎</span>
+                <span className="cursor-pointer hover:text-gray-500">𝕏</span>
+                <span className="cursor-pointer hover:text-gray-500">▶</span>
+                <span className="cursor-pointer hover:text-gray-500">●</span>
+              </div>
+            </div>
+
+          </div>
         </div>
-
-        {/* Social icons */}
-        <div className="flex items-center gap-4 mt-3 text-gray-800 text-[11px]">
-          <span className="cursor-pointer hover:text-gray-500">f</span>
-          <span className="cursor-pointer hover:text-gray-500">◎</span>
-          <span className="cursor-pointer hover:text-gray-500">𝕏</span>
-          <span className="cursor-pointer hover:text-gray-500">▶</span>
-          <span className="cursor-pointer hover:text-gray-500">●</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+      </section>
 
     </div>
   );
